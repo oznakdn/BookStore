@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\OneDrive\\Desktop\\BookStore\\BookStore.WebApi\\BookStore.WebApi.csproj": {}
+    "c:\\Users\\HP\\OneDrive\\Desktop\\BookStore\\BookStore.WebApi\\BookStore.WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\OneDrive\\Desktop\\BookStore\\BookStore.WebApi\\BookStore.WebApi.csproj": {
+    "c:\\Users\\HP\\OneDrive\\Desktop\\BookStore\\BookStore.WebApi\\BookStore.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\OneDrive\\Desktop\\BookStore\\BookStore.WebApi\\BookStore.WebApi.csproj",
+        "projectUniqueName": "c:\\Users\\HP\\OneDrive\\Desktop\\BookStore\\BookStore.WebApi\\BookStore.WebApi.csproj",
         "projectName": "BookStore.WebApi",
-        "projectPath": "C:\\Users\\HP\\OneDrive\\Desktop\\BookStore\\BookStore.WebApi\\BookStore.WebApi.csproj",
+        "projectPath": "c:\\Users\\HP\\OneDrive\\Desktop\\BookStore\\BookStore.WebApi\\BookStore.WebApi.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\OneDrive\\Desktop\\BookStore\\BookStore.WebApi\\obj\\",
+        "outputPath": "c:\\Users\\HP\\OneDrive\\Desktop\\BookStore\\BookStore.WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -52,6 +52,10 @@
               "target": "Package",
               "version": "[10.3.5, )"
             },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.6, )"
@@ -87,7 +91,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     }

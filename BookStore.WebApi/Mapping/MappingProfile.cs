@@ -4,6 +4,7 @@ using BookStore.WebApi.Entities;
 using BookStore.WebApi.Models.AuthorModels;
 using BookStore.WebApi.Models.BookModels;
 using BookStore.WebApi.Models.GenreModels;
+using BookStore.WebApi.Models.UserModels;
 
 namespace BookStore.WebApi.Mapping
 {
@@ -34,6 +35,7 @@ namespace BookStore.WebApi.Mapping
             CreateMap<Author,AuthorDetailViewModel>(); //GetAuthor
             CreateMap<CreateAuthorModel,Author>(); //CreateAuthor
            
+           CreateMap<CreateUserModel,User>(); //CreateUser
 
             
         }

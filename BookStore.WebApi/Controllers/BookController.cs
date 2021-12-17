@@ -14,9 +14,12 @@ using AutoMapper;
 using BookStore.WebApi.Validations.BookValidators;
 using FluentValidation.Results;
 using FluentValidation;
+using Microsoft.AspNetCore.Authorization;
 
 namespace BookStore.WebApi.Controllers
 {
+
+    [Authorize]
     [ApiController]
     [Route("api/[controller]s")]
     public class BookController:ControllerBase
